@@ -1,0 +1,35 @@
+/********** FONTS **********/
+
+@font-face{
+	font-family: bebas;
+	src: url('fonts/bebasneue.woff');
+}
+
+@font-face{
+	font-family: dragon;
+	src: url('fonts/dragoniscoming.otf');
+}
+
+@font-face{
+	font-family: moonbold;
+	src: url('fonts/moonflowerbold.ttf');
+}
+
+/********** IDs **********/
+
+#blog_head{
+	background-image: url('../img/blurred2.jpg');
+	background-position: center;
+}
+
+#blog_title{
+	font-family: moonbold;
+	font-size: 100px;
+	color: #FFFFFF;
+	text-shadow: 6px 6px 4px #2C3539;
+}
+
+/********** CLASSES **********/
+
+
+/********** ELEMENTS **********/
