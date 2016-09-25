@@ -15,6 +15,16 @@
 	src: url('fonts/moonflowerbold.ttf');
 }
 
+@font-face{
+	font-family: outrun;
+	src: url('fonts/outrunfuturebold.otf');
+}
+
+@font-face{
+	font-family: komika;
+	src: url('fonts/KOMIKAX_.ttf');
+}
+
 /********** IDs **********/
 
 #blog_head{
@@ -24,10 +34,24 @@
 
 #blog_title{
 	font-family: moonbold;
-	font-size: 100px;
+	font-size: 80px;
 	color: #FFFFFF;
 	text-shadow: 6px 6px 4px #2C3539;
 }
+
+#comics_head{
+	background-image: url('../img/city.jpg');
+	background-position: center right;
+}
+
+
+#comic_title{
+	font-family: komika;
+	font-size: 80px;
+	color: #FFFFFF;
+	text-shadow: 6px 6px 4px #000000;
+}
+
 
 /********** CLASSES **********/
 
