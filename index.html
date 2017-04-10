@@ -9,28 +9,36 @@
 		<script type="text/javascript" src="res/js/jquery-3.1.1.min.js"></script>
 	</head>
 	<body>
-		<!--TOP BAR-->
-		<div class="top-bar" id="top">
+		<!--TOP BAR
+		<div class="top-bar">
 			<div class="menu-centered">
-					<text class="top-bar-text">Miles Basnillo</text>
+				<div class="button-group">
+					<a class="button nav-button color2">Resume</a>
+					<a class="button nav-button color2">Blog</a>
+					<a class="button nav-button color2">Art</a>
+				</div>
 			</div>
 		</div>
-
+		-->
 		<!--HEADER-->
-		<div id="header" align="center">
-			<h1>Welcome to my resume!</h1>
-
-			<p>
-				<a class="button color1" href="#">Button 1</a>
-				<a class="button color1" href="#">Button 2</a>
-				<a class="button color1" href="#">Button 3</a>
-			</p>
+		<div id="header">
+			<div class="row">
+				<div class="small-3 columns">
+					<img src="res/img/profile.jpg" id="profile_pic" />
+				</div>
+				<div class="small-9 columns white-text">
+					<h1 class="shadow">Miles Lawrence R. Basnillo</h1>
+					<p>
+						<i>Hardworking, adaptable, and goal-oriented.</i>
+					</p>
+				</div>
+			</div>
 		</div>
 
 		<!--MAIN BODY-->
 		<div class="row">
-			<div class="small-3 columns">
-				<h1>Navigation</h1>
+			<div class="small-2 columns main-body">
+				<h4>Navigation</h4>
 				<ul class="menu vertical">
 					<li><a href="#section_technologies">Technologies</a></li>
 					<li><a href="#section_projects">Projects</a></li>
@@ -40,40 +48,61 @@
 				</ul>
 			</div>
 
-			<div class="small-9 columns">
+			<div class="small-10 columns main-body">
 				<!---->
 				<div class="row" id="section_technologies">
-					<h1>Technologies</h1>
+					<h3>Technologies</h3>
 
 					<div class="small-6 columns">
-						<h3>Front End</h3>
+						<h4>Front End</h4>
 					</div>
 					<div class="small-6 columns">
-						<h3>Back End</h3>
+						<h4>Back End</h4>
 					</div>
 				</div>
 
 				<hr />
 
 				<div class="row" id="section_projects">
-					<h1>Projects</h1>
+					<h3>Projects</h3>
 				</div>
 
 				<hr />
 
 				<div class="row" id="section_experience">
-					<h1>Previous Experience</h1>
+					<h3>Previous Experience</h3>
 				</div>
 
 				<hr />
 
 				<div class="row" id="section_affiliations">
-					<h1>Affiliations</h1>
+					<h3>Affiliations</h3>
+				</div>
+
+				<hr />
+
+				<div class="row" id="section_todo">
+					<h3>TODO List</h3>
+					<ul>
+						<li>Fonts (Different ones)</li>
+						<li>Personal description</li>
+						<li>Insert cool tagline(?)</li>
+						<li>Update profile picture</li>
+						<li>Study and implement React.js</li>
+						<li>Possibly add a background photo to the header?</li>
+						<li></li>
+					</ul>
 				</div>
 				<!---->
 			</div>
 		</div>
 		<!--END OF MAIN BODY-->
+
+		<div id="footer" align="center">
+			<sub>
+				© 2017 Milestrong aka Miles Basnillo
+			</sub>
+		</div>
 
 	</body>
 </html>
