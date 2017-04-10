@@ -1,0 +1,21 @@
+.top-bar {
+  background-color: #00796B;
+}
+
+.top-bar-text {
+  color: #FFFFFF;
+}
+
+.color1 {
+  /*Red accent*/
+  background-color: #FF5252;
+}
+
+#header {
+  /*background-color: #009688;*/
+  background: linear-gradient(to right, #26A69A, #00897B);
+  float: left;
+  width: 100%;
+  height: 200px;
+  padding-top: 40px;
+}
