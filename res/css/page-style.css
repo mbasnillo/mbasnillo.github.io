@@ -52,7 +52,7 @@
   float: left;
   width: 100%;
   height: auto;
-  padding-top: 10px;
+  padding-top: 50px;
 }
 
 #header .bg {
@@ -62,8 +62,10 @@
   bottom: 0;
   left: 0;
   right: 0;
-  background: url('../img/cover.jpg');
-  opacity: .6;
+  background: url('../img/cover2.jpg');
+  background-size: cover;
+  background-position: 70% 18%;
+  opacity: .75;
   width: 100%;
   height: 100%;
 }
