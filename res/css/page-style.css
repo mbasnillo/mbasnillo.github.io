@@ -45,8 +45,8 @@
 }
 
 #header {
-  /*background-color: #009688;*/
-  background: linear-gradient(to right, #26A69A, #00897B);
+  background-color: #2C3539;
+  /*background: linear-gradient(to right, #26A69A, #00897B);*/
   position: relative;
   z-index: 0;
   float: left;
@@ -65,7 +65,7 @@
   background: url('../img/cover2.jpg');
   background-size: cover;
   background-position: 70% 18%;
-  opacity: .75;
+  opacity: .5;
   width: 100%;
   height: 100%;
 }
