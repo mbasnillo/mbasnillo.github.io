@@ -1,0 +1,19 @@
+
+
+#profile_pic {
+  max-width: 80%;
+  max-height: 80%;
+  border-radius: 180px;
+}
+
+#my_name {
+  font-size: 60px;
+}
+
+#my_motto {
+  font-size: 25px;
+}
+
+#my_contact {
+  font-size: 20px;
+}
