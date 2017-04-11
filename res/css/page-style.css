@@ -48,7 +48,7 @@
   background-image: url('../img/cover.jpg');
   float: left;
   width: 100%;
-  height: auto;
+  height: inherit;
   padding-top: 10px;
 }
 
