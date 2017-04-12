@@ -45,7 +45,7 @@
 }
 
 #header {
-  background-color: #2C3539;
+  background-color: #212121;
   /*background: linear-gradient(to right, #26A69A, #00897B);*/
   position: relative;
   z-index: 0;
@@ -76,4 +76,5 @@
   bottom: 0;
   width: 100%;
   height: 40px;
+  margin: 20px;
 }
