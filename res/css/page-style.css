@@ -36,12 +36,21 @@
   font-style: italic;
 }
 
+.nav-btn {
+  background-color: #2C3539;
+}
+
 .shadow1 {
   text-shadow: 3px 3px 3px #000000;
 }
 
 .shadow2 {
   text-shadow: 2px 2px 1px #000000;
+}
+
+.back-top {
+  text-align: center;
+  margin: 10px;
 }
 
 #header {
