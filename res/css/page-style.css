@@ -14,6 +14,18 @@
 .white-text {
   color: #FFFFFF;
 }
+
+.title-font {
+  font-size: 60px;
+}
+
+.header-font {
+  font-size: 36px;
+}
+
+.header-font-2 {
+  font-size: 28px;
+}
 /*
 .red-btn {
   background-color: transparent;
