@@ -1,0 +1,102 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main {
+    width: 100vw;
+    margin-top: 30vh;
+    color: #FEFEFE;
+}
+
+#header {
+    background-color: #3d3c3a;
+    position: relative;
+    z-index: 0;
+    width: 100%;
+    height: 100vh;
+}
+
+#header .bg {
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(135deg, #1e5799 0%, #2989d8 50%, #207cca 63%, #7db9e8 100%);
+    background-image: url('../img/temp_cover.jpg');
+    background-size: cover;
+    background-position: 0 25%;
+    opacity: 0.7;
+    width: 100%;
+    height: 100%;
+}
+
+.header-btn {
+    background-color: transparent;
+    border: 1.5px solid #F5F5F5;
+    font-size: 18px;
+    width: 100%;
+}
+
+.header-btn i {
+    font-size: 24px;
+}
+
+.header-btn:hover {
+    background-color: transparent;
+    font-style: italic;
+}
+
+.centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.vl {
+    border-left: 3px solid white;
+    height: 100%;
+    width: 25px;
+    float: left;
+}
+
+.nav {
+    text-align: right;
+    padding-right: 25px;
+}
+
+.nav-link h5 {
+    font-family: 'Droid Serif';
+    color: white;
+    font-size: 28px;
+}
+
+.nav-link h5:hover {
+    color: #2b547e;
+    font-weight: 800;
+}
+
+.space {
+    width: 2% !important;
+}
+
+.intro {
+    text-align: left;
+}
+
+h3.lato {
+    font-size: 36px !important;
+}
+
+h4.lato {
+    font-size: 28px !important;
+}
+
+h1.arimo {
+    font-weight: 900;
+    font-size: 100px;
+    line-height: 120px;
+}

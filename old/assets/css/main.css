@@ -3,8 +3,16 @@ body, html {
   margin: 0;
 }
 
-h1 {
+.intro {
+  font-size: 1.5em;
+}
+
+.main {
   font-size: 4em;
+}
+
+.sub {
+  font-size: 2em;
 }
 
 .background-image {
